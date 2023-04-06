@@ -12,5 +12,6 @@
 -- | 2020 | Toronto Blue Jays                 |
 -- | 2020 | Washington Nationals              |
 -- +------+-----------------------------------+
+select year, name from teams order by year asc
 
 

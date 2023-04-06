@@ -7,5 +7,4 @@
 -- | 1962 | New York Mets.       | 40   | 120    |
 -- | 2003 | Detroit Tigers       | 43   | 119    |
 -- +------+----------------------+------+--------+
-
-
+select year, name, wins from teams order by wins desc
